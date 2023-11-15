@@ -1,0 +1,22 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.content{
+    background-color: chocolate;
+}
+
+#programmingLanguages{
+    list-style-type:armenian;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 15px;
+}
+
+header > nav > ul {
+    list-style-type:lower-greek;
+}
+header a{
+    color: blueviolet;
+    text-decoration: none;
+
+}

@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link href="../Assets/Css/style.css" rel="stylesheet"/>
+</head>
+<body>
+    <header>
+        <div>
+            <img src="../Assets/sliki/instagram.jpg" alt="logo" width="30" />
+        </div>
+        <nav>
+            <ul>
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="../About/about.html">About</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section>
+        <h3>Contact us</h3>
+        <form>
+            <fieldset>
+                <legend>Personal information</legend>
+                <label for="FullName">Full name:</label>
+                <input type="text" id="FullName" name="FullName" placeholder="Enter your name"/>
+                <br/>
+                <br/>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email"/>
+                <br/>
+                <br/>
+                <label for="phoneNumber">Phone Number:</label>
+                <input type="tel" id="phoneNumber" name="phoneNumber"/>
+                <br/>
+                <br/>
+                <label for="birthday">Birthday:</label>
+                <input type="date" id="birthday" name="birthday"/>
+                <br/>
+                <br/>
+                <h3>Gender:</h3>
+                <label for="male">Male</label>
+                <input type="radio" id="male" name="Gender" value="Male"/>
+                <label for="female">Female</label>
+                <input type="radio" id="female" name="Gender" value="Female"/>
+                <br/>
+                <br/>
+            </fieldset>
+            <fieldset>
+                <legend>Business information</legend>
+                <label for="company">Apply For:</label>
+                <select id="company" name="company">
+                    <option selected="selected" disabled="disabled">Please select value</option>
+                    <option value="seavus">Seavus</option>
+                    <option value="google">Google</option>
+                    <option value="facebook">Facebook</option>
+                </select>
+                <h3>Job positions:</h3>
+                <label for="webDesign">Web Design</label>
+                <input type="checkbox" id="webDesign" name="webDesign"/>
+                <br/>
+                <label for="frontEnd">Front end</label>
+                <input type="checkbox" id="frontEnd" name="frontEnd"/>
+                <br/>
+                <label for="backEnd">Back end</label>
+                <input type="checkbox" id="backEnd" name="backEnd"/>
+            </fieldset>
+        </form>
+    </section>
+    <footer>
+        <div>
+            <ul>
+                <li><a href="https://www.facebook.com/" target="_blank">Facebook</a></li>
+                <li><a href="https://www.instagram.com/" target="_blank">Instagram</a></li>
+                <li><a href="https://twitter.com/?lang=en" target="_blank">Twitter</a></li>
+            </ul>
+        </div>
+        <div>
+            <p>CopyRight Dean Butevski</p>
+        </div>
+    </footer>
+</body>
+</html>
